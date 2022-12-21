@@ -1,0 +1,9 @@
+# conda env create --file environment.yml
+name: cookiecutter-personal
+channels:
+  - anaconda
+  - conda-forge
+  - defaults
+dependencies:
+  - cookiecutter=1.7.3
+prefix: /Users/diegosaldias/opt/anaconda3/envs/cookiecutter-personal
